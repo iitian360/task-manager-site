@@ -53,8 +53,8 @@ function showtask(){
         taskelm.innerHTML=html;
     }
     else{
-        taskelm.innerHTML=`<h6 style="font-family:'Ubuntu', sans-serif; background:darkslategrey; border:1px solid yellow;
-        border-radius:3px; color:yellow; padding:10px 30px;">No task yet, click "Add Task" to add first task</h6>`;
+        taskelm.innerHTML=`<h6 style="font-family:'Ubuntu', sans-serif; background:white; border:1px solid black;
+        border-radius:3px; color:black;text-align:center;width:90%;padding:10px 20px;">No task yet, click "Add Task" to add first task</h6>`;
       
     }
 

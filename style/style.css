@@ -5,6 +5,10 @@
  body{
      background: rgba(114, 236, 230, 0.986);
  }
+ *{
+     padding: 0px;
+     margin: 0px;
+ }
  .navbar-brand,.nav-link,.btn,.head-1{
     font-family: 'Ubuntu', sans-serif;
     color: white;
