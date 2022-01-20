@@ -11,12 +11,16 @@
     
  }
  .head{
-     color: rgb(247, 218, 218);
+     color: rgb(252, 247, 247);
      font-family: 'Playball', cursive;
      font-weight:900;
      font-size:40px;
      text-align: center;
-     text-shadow: rgb(82, 82, 82) 3px 3px 3px;
+     padding:5px 10px;
+     border-radius: 8px;
+     background:darkslategrey ;
+     text-shadow: rgb(255, 131, 30) -3px 4px 2px;
+     box-shadow:rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;;
  }
 
  #title-text{
