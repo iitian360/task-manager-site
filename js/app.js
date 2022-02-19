@@ -90,3 +90,19 @@ searchtxt.addEventListener('input',function(){
         }
     })
 })
+
+
+/// time zone///
+
+let time=document.getElementById('time');
+let date=document.getElementById('date');
+ function showTime(){
+     let myTime=new Date();
+     let res=myTime.toLocaleTimeString('en-US')
+     time.innerText=res;
+
+     let day_yr=myTime.toDateString('en-US');
+     date.innerText=day_yr;
+ }
+
+ setInterval(showTime,1000);
